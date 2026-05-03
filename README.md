@@ -11,4 +11,4 @@ I'll improve this next time)
 ### 💡 About the script
 - It's nothing much of it, still needs improvement next time because I need to learn more.
   
-**That's all, folks. I know this is not too much because I'm still a junior Python developer, but thank you guys for coming here and reading my yapping. Have a good day!**
+**That's all, folks. I know this is not too much, but thank you guys for coming here and reading my yapping. Have a good day!**
