@@ -9,4 +9,4 @@ Well... It's not much about it, you just run the code, and the first thing it sa
 If you input 'y ', the game starts, and you guess the number. If you input a number too high, it will tell you the same thing, and if you input a number too low will tell you the same thing. When you finally guess the number, you win! (There's no losing,
 I'll improve this next time)
 
-- That's all, folks. Thanks for reading my yapping. Have a good day!
+**That's all, folks. I know this is not too much, but thank you guys for reading my yapping. Have a good day!**
