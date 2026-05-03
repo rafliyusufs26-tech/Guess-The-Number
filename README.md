@@ -8,4 +8,7 @@ and tell you to write the right input.
 If you input 'y ', the game starts, and you guess the number. If you input a number too high, it will tell you the same thing, and if you input a number too low will tell you the same thing. When you finally guess the number, you win! (There's no losing,
 I'll improve this next time)
 
-**That's all, folks. I know this is not too much because i'm still a junior python developer, but thank you guys for coming here and reading my yapping. Have a good day!**
+### 💡 About the script
+- It's nothing much of it, still needs improvement next time because I need to learn more.
+  
+**That's all, folks. I know this is not too much because I'm still a junior Python developer, but thank you guys for coming here and reading my yapping. Have a good day!**
