@@ -1,22 +1,28 @@
 import random
 
-random_num = random.randint(1, 100) # It will select random number from 1 - 100
+# Generate the number and pick a random number
+random_num = random.randint(1, 100)
 
 while True:
-    ask = input("Do you want to play? (y/n): ").lower() # Asking if you want to play game
+
+    ask = input("Do you want to play? (y/n): ").lower()
+
     if ask == "y": 
         print("Great! Let's start.") # The game start if you type 'y'
-        try:
-            guess = int(input("Guess the number: "))
-            if guess < random_num: 
-                print("Too low! Try again.")
-            elif guess > random_num:
-                print("Too high! Try again.")
-            else:
-                print("You got it!")
-                break
-        except ValueError:
-            print("Please Enter Valid Number") 
+        
+        while True:
+            try:
+                guess = int(input("Guess the number: "))
+                if guess < random_num: 
+                    print("Too low! Try again.")
+                elif guess > random_num:
+                    print("Too high! Try again.")
+                elif guess == random_num:
+                    print("You got it!")
+                    break
+            except ValueError:
+                print('Please enter a valid number.')
+            
     elif ask == 'n':
         print("Okay, maybe next time!") # The game stop if you type 'n'
         break
